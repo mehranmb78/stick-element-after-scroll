@@ -1,0 +1,12 @@
+.main-header {
+    border: 1px solid black;
+    padding: 16px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.main-header-sticky {
+    height: 25px;
+    background: yellow;
+}

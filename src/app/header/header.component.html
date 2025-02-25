@@ -1,0 +1,9 @@
+<header 
+    class="main-header" 
+    [class.main-header-sticky]="isMainHeaderStick()" 
+    [stickThreshold]="0.3" 
+    id="main-header" 
+    (stickElement)="isMainHeaderStick.set($event)" 
+    appStickAfterScroll>
+    Hello from header!
+</header>
