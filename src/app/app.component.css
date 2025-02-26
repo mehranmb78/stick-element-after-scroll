@@ -4,3 +4,13 @@
     margin-top: 16px;
     padding: 16px;
 }
+
+.main-section-header {
+    background: gray;
+    padding: 16px;
+}
+
+.main-section-header-sticky {
+    margin: 0;
+    background: blue;
+}

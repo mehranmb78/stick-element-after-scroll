@@ -1,4 +1,14 @@
 <app-header />
 <section class="main-section">
-    Imagin some content here :)
+    <div class="main-section-header" 
+        [class.main-section-header-sticky]="isMainSectionHeaderSticky()"
+        id="main-section-header" 
+        appStickAfterScroll 
+        (stickElement)="isMainSectionHeaderSticky.set($event)"
+        >
+        Here is another sticky part!
+    </div>
+    <p>
+        Imagin some content here :)
+    </p>
 </section>
